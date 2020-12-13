@@ -3,6 +3,7 @@ public class Person {
     private String cardID;
     private Integer age;
     private String company;
+    private String school;
 
     public String getName() {
         return name;
@@ -34,5 +35,13 @@ public class Person {
 
     public void setCompany(String company) {
         this.company = company;
+    }
+
+    public String getSchool() {
+        return school;
+    }
+
+    public void setSchool(String school) {
+        this.school = school;
     }
 }
